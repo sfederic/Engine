@@ -117,7 +117,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source\PropertyWidgets\Float3Widget.cpp" />
-    <ClCompile Include="Source\CommandSystem.cpp" />
     <ClCompile Include="Source\Commands\FloatCommand.cpp" />
     <ClCompile Include="Source\Properties.cpp" />
     <ClCompile Include="Source\Material.cpp" />
@@ -128,7 +127,6 @@
     <ClCompile Include="Source\PropertyWidgets\IntWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\FloatWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp" />
-    <ClCompile Include="Source\BlendState.cpp" />
     <ClCompile Include="Source\DebugBox.cpp" />
     <ClCompile Include="Source\DebugSphere.cpp" />
     <ClCompile Include="Source\ParticleSystem.cpp" />
@@ -140,19 +138,14 @@
     <ClCompile Include="Source\Serialise.cpp" />
     <ClCompile Include="Source\ToolkitEditorSystem.cpp" />
     <ClCompile Include="Source\Actor.ixx" />
-    <ClCompile Include="Source\AssetDock.cpp" />
     <ClCompile Include="Source\Audio.cpp" />
     <ClCompile Include="Source\AudioSystem.cpp" />
-    <ClCompile Include="Source\Camera.cpp" />
-    <ClCompile Include="Source\Console.cpp" />
-    <ClCompile Include="Source\ConsoleDock.cpp" />
     <ClCompile Include="Source\CoreSystem.cpp" />
     <ClCompile Include="Source\Debug.cpp" />
     <ClCompile Include="Source\DebugMenu.cpp" />
     <ClCompile Include="Source\FBXImporter.cpp" />
     <ClCompile Include="Source\FileSystem.cpp" />
     <ClCompile Include="Source\GameSystem.cpp" />
-    <ClCompile Include="Source\Buffer.cpp" />
     <ClCompile Include="Source\ImGuizmo\ImCurveEdit.cpp" />
     <ClCompile Include="Source\ImGuizmo\ImGradient.cpp" />
     <ClCompile Include="Source\ImGuizmo\ImGuizmo.cpp" />
@@ -200,7 +193,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\PropertyWidgets\Float3Widget.h" />
-    <ClInclude Include="Source\CommandSystem.h" />
+    <ClInclude Include="Source\CommandSystem.ixx" />
     <ClInclude Include="Source\Commands\FloatCommand.h" />
     <ClInclude Include="Source\Commands\ICommand.h" />
     <ClInclude Include="Source\Properties.ixx" />
@@ -212,7 +205,7 @@
     <ClInclude Include="Source\PropertyWidgets\IntWidget.h" />
     <ClInclude Include="Source\PropertyWidgets\FloatWidget.h" />
     <ClInclude Include="Source\PropertyWidgets\BoolWidget.h" />
-    <ClInclude Include="Source\BlendState.h" />
+    <ClInclude Include="Source\BlendState.ixx" />
     <ClInclude Include="Source\DebugBox.h" />
     <ClInclude Include="Source\DebugSphere.h" />
     <ClInclude Include="Source\ParticleSystem.h" />
@@ -223,19 +216,19 @@
     <ClInclude Include="Source\Serialise.h" />
     <ClInclude Include="Source\ToolkitEditorSystem.h" />
     <ClInclude Include="Source\AnimationStructures.ixx" />
-    <ClInclude Include="Source\AssetDock.h" />
+    <ClInclude Include="Source\AssetDock.ixx" />
     <ClInclude Include="Source\Audio.h" />
     <ClInclude Include="Source\AudioSystem.h" />
-    <ClInclude Include="Source\Camera.h" />
-    <ClInclude Include="Source\Console.h" />
-    <ClInclude Include="Source\ConsoleDock.h" />
+    <ClInclude Include="Source\Camera.ixx" />
+    <ClInclude Include="Source\Console.ixx" />
+    <ClInclude Include="Source\ConsoleDock.ixx" />
     <ClInclude Include="Source\CoreSystem.h" />
     <ClInclude Include="Source\Debug.h" />
     <ClInclude Include="Source\DebugMenu.h" />
     <ClInclude Include="Source\FBXImporter.h" />
     <ClInclude Include="Source\FileSystem.h" />
     <ClInclude Include="Source\GameSystem.h" />
-    <ClInclude Include="Source\Buffer.h" />
+    <ClInclude Include="Source\Buffer.ixx" />
     <ClInclude Include="Source\ImGuizmo\ImCurveEdit.h" />
     <ClInclude Include="Source\ImGuizmo\ImGradient.h" />
     <ClInclude Include="Source\ImGuizmo\ImGuizmo.h" />

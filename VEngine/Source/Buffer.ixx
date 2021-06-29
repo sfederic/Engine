@@ -1,10 +1,10 @@
-#pragma once
-
+module;
 #include <stdint.h>
+export module Buffer;
 
 struct ID3D11Buffer;
 
-class Buffer
+export class Buffer
 {
 public:
 

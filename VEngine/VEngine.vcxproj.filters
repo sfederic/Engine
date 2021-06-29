@@ -41,22 +41,10 @@
     <ClCompile Include="Source\Actor.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\AssetDock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Audio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\AudioSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Camera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Console.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ConsoleDock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\CoreSystem.cpp">
@@ -75,9 +63,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\GameSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Buffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Input.cpp">
@@ -203,9 +188,6 @@
     <ClCompile Include="Source\DebugSphere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\BlendState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -257,9 +239,6 @@
     <ClCompile Include="Source\Commands\FloatCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\CommandSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Commands\VectorCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -271,7 +250,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\AssetDock.h">
+    <ClInclude Include="Source\AssetDock.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Audio.h">
@@ -280,13 +259,13 @@
     <ClInclude Include="Source\AudioSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Camera.h">
+    <ClInclude Include="Source\Camera.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Console.h">
+    <ClInclude Include="Source\Console.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ConsoleDock.h">
+    <ClInclude Include="Source\ConsoleDock.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\CoreSystem.h">
@@ -307,7 +286,7 @@
     <ClInclude Include="Source\GameSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Buffer.h">
+    <ClInclude Include="Source\Buffer.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Input.h">
@@ -451,7 +430,7 @@
     <ClInclude Include="Source\DebugSphere.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\BlendState.h">
+    <ClInclude Include="Source\BlendState.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\ActorSystemFactory.ixx">
@@ -505,7 +484,7 @@
     <ClInclude Include="Source\Commands\FloatCommand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\CommandSystem.h">
+    <ClInclude Include="Source\CommandSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Commands\VectorCommand.h">
