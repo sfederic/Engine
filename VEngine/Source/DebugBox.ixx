@@ -1,14 +1,26 @@
-#pragma once
-
-#include "Actor.h"
+module;
+import Actor;
+export module DebugBox;
 
 //Debug representation of bounding box for actors.
-class DebugBox : public ActorSystem
+export class DebugBox : public ActorSystem
 {
 public:
-	DebugBox();
-	virtual void Tick(float deltaTime);
-	virtual void Start();
+	DebugBox()
+	{
+		modelName = "cube.fbx";
+		shaderName = "debugDraw.hlsl";
+	}
+
+	void Tick(float deltaTime)
+	{
+	}
+
+	void Start()
+	{
+		Init<Actor>(1);
+	}
+
 	virtual void SpawnActors(int numToSpawn) { }
 	virtual Actor* SpawnActor(Transform transform) { return nullptr; }
 
@@ -16,4 +28,4 @@ public:
 	std::vector<Transform> debugBoxTransforms;
 };
 
-extern DebugBox debugBox;
+export DebugBox debugBox;

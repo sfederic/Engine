@@ -47,12 +47,6 @@
     <ClCompile Include="Source\AudioSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\CoreSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Debug.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\DebugMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -182,9 +176,6 @@
     <ClCompile Include="Source\ParticleSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\DebugBox.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\DebugSphere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -268,10 +259,10 @@
     <ClInclude Include="Source\ConsoleDock.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\CoreSystem.h">
+    <ClInclude Include="Source\CoreSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Debug.h">
+    <ClInclude Include="Source\Debug.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\DebugMenu.h">
@@ -424,7 +415,7 @@
     <ClInclude Include="Source\ParticleSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\DebugBox.h">
+    <ClInclude Include="Source\DebugBox.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\DebugSphere.h">

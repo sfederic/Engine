@@ -127,7 +127,6 @@
     <ClCompile Include="Source\PropertyWidgets\IntWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\FloatWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp" />
-    <ClCompile Include="Source\DebugBox.cpp" />
     <ClCompile Include="Source\DebugSphere.cpp" />
     <ClCompile Include="Source\ParticleSystem.cpp" />
     <ClCompile Include="Source\EditorSystem.cpp" />
@@ -140,8 +139,6 @@
     <ClCompile Include="Source\Actor.ixx" />
     <ClCompile Include="Source\Audio.cpp" />
     <ClCompile Include="Source\AudioSystem.cpp" />
-    <ClCompile Include="Source\CoreSystem.cpp" />
-    <ClCompile Include="Source\Debug.cpp" />
     <ClCompile Include="Source\DebugMenu.cpp" />
     <ClCompile Include="Source\FBXImporter.cpp" />
     <ClCompile Include="Source\FileSystem.cpp" />
@@ -206,7 +203,7 @@
     <ClInclude Include="Source\PropertyWidgets\FloatWidget.h" />
     <ClInclude Include="Source\PropertyWidgets\BoolWidget.h" />
     <ClInclude Include="Source\BlendState.ixx" />
-    <ClInclude Include="Source\DebugBox.h" />
+    <ClInclude Include="Source\DebugBox.ixx" />
     <ClInclude Include="Source\DebugSphere.h" />
     <ClInclude Include="Source\ParticleSystem.h" />
     <ClInclude Include="Source\EditorSystem.h" />
@@ -222,8 +219,8 @@
     <ClInclude Include="Source\Camera.ixx" />
     <ClInclude Include="Source\Console.ixx" />
     <ClInclude Include="Source\ConsoleDock.ixx" />
-    <ClInclude Include="Source\CoreSystem.h" />
-    <ClInclude Include="Source\Debug.h" />
+    <ClInclude Include="Source\CoreSystem.ixx" />
+    <ClInclude Include="Source\Debug.ixx" />
     <ClInclude Include="Source\DebugMenu.h" />
     <ClInclude Include="Source\FBXImporter.h" />
     <ClInclude Include="Source\FileSystem.h" />
