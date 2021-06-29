@@ -47,18 +47,6 @@
     <ClCompile Include="Source\AudioSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\FBXImporter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\FileSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\GameSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Input.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\RasterizerState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -75,15 +63,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\MathHelpers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Obj.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Profiler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\PropertiesDock.cpp">
@@ -164,12 +143,6 @@
     <ClCompile Include="Source\ToolkitEditorSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\NativeEditorSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ParticleSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -194,9 +167,6 @@
     <ClCompile Include="Source\Components\Component.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\PipelineView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Actors\TestActor2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -207,12 +177,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Components\BoxTriggerComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Material.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Properties.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Commands\FloatCommand.cpp">
@@ -256,19 +220,16 @@
     <ClInclude Include="Source\DebugMenu.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\FBXImporter.h">
+    <ClInclude Include="Source\FBXImporter.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\FileSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\GameSystem.h">
+    <ClInclude Include="Source\FileSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Buffer.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Input.h">
+    <ClInclude Include="Source\Input.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\RasterizerState.h">
@@ -286,13 +247,10 @@
     <ClInclude Include="Source\Lights.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\MathHelpers.h">
+    <ClInclude Include="Source\VMath.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Obj.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Profiler.h">
+    <ClInclude Include="Source\Profiler.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\PropertiesDock.h">
@@ -388,19 +346,16 @@
     <ClInclude Include="Source\ToolkitEditorSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\IEditorSystem.h">
+    <ClInclude Include="Source\IEditorSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\NativeEditorSystem.h">
+    <ClInclude Include="Source\NativeEditorSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\EditorSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\GlobalDefines.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\ParticleSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\DebugBox.ixx">
@@ -433,7 +388,7 @@
     <ClInclude Include="Source\Components\Component.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\PipelineView.h">
+    <ClInclude Include="Source\PipelineView.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Actors\TestActor2.h">
@@ -451,7 +406,7 @@
     <ClInclude Include="Source\DebugDraw.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Material.h">
+    <ClInclude Include="Source\Material.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Properties.ixx">

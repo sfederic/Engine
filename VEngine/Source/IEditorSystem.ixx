@@ -1,6 +1,6 @@
-#pragma once
-
-#include <string>
+module;
+import <string>;
+export module IEditorSystem;
 
 enum class EDockFocus
 {
@@ -15,7 +15,7 @@ enum class EDockFocus
 class Actor;
 
 //Interface to allow for swapping between editor and 'OS window only' functions.
-class IEditorSystem
+export class IEditorSystem
 {
 public:
 	virtual void Init(int argc, char** argv) = 0;

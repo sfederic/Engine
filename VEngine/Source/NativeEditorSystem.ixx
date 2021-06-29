@@ -1,13 +1,22 @@
-#pragma once
+module;
+import IEditorSystem;
+export module NativeEditorSystem;
 
 #include "IEditorSystem.h"
 
 //For any 'native' editor (Win32) stuff for builds. 
 //Maybe can even get away with using Imgui or D2D as a Qt replacement.
-class NativeEditorSystem : public IEditorSystem
+export class NativeEditorSystem : public IEditorSystem
 {
 public:
-	virtual void Init(int argc, char** argv);
+	virtual void NativeEditorSystem::Init(int argc, char** argv) override
+	{
+		gCoreSystem.windowWidth = 800;
+		gCoreSystem.windowHeight = 600;
+		gCoreSystem.SetupWindow(GetModuleHandle(NULL), SW_SHOW);
+		mainWindow = gCoreSystem.mainWindow;
+	}
+
 	virtual void Tick() {}
 	virtual void PopulateWorldList() {}
 	virtual void PopulateActorSystemList() {}
