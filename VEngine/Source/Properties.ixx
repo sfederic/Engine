@@ -1,10 +1,10 @@
-#pragma once
-
-#include <string>
-#include <unordered_map>
-#include <optional>
-#include <typeindex>
-#include "GlobalDefines.h"
+module;
+import <string>;
+import <unordered_map>;
+import <optional>;
+import <typeindex>;
+import "GlobalDefines.h"
+export module Properties;
 
 //Lot of good references and ideas on serialisation. Heaps of ideas on reflection, custom compile stages, header parsing.
 //REF:https://google.github.io/flatbuffers/flatbuffers_guide_tutorial.html
@@ -16,7 +16,7 @@
 //Properties are created in GetProps() function blocks so that the maps can be cascaded down
 //actor inheritence trees, meaning you have to define Properties by hand in that same function, then
 //call it when needed. Maybe look into some way to cache it. Performance wasn't a huge issue in testing.
-struct Properties
+export struct Properties
 {
 #ifndef GAME_RELEASE
 

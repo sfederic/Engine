@@ -64,7 +64,7 @@
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -73,7 +73,7 @@
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
@@ -139,7 +139,7 @@
     <ClCompile Include="Source\RenderTypes.cpp" />
     <ClCompile Include="Source\Serialise.cpp" />
     <ClCompile Include="Source\ToolkitEditorSystem.cpp" />
-    <ClCompile Include="Source\Actor.cpp" />
+    <ClCompile Include="Source\Actor.ixx" />
     <ClCompile Include="Source\AnimationStructures.cpp" />
     <ClCompile Include="Source\AssetDock.cpp" />
     <ClCompile Include="Source\Audio.cpp" />
@@ -206,7 +206,7 @@
     <ClInclude Include="Source\CommandSystem.h" />
     <ClInclude Include="Source\Commands\FloatCommand.h" />
     <ClInclude Include="Source\Commands\ICommand.h" />
-    <ClInclude Include="Source\Properties.h" />
+    <ClInclude Include="Source\Properties.ixx" />
     <ClInclude Include="Source\Material.h" />
     <ClInclude Include="Source\DebugDraw.h" />
     <ClInclude Include="Source\Components\BoxTriggerComponent.h" />
@@ -225,7 +225,6 @@
     <ClInclude Include="Source\IEditorSystem.h" />
     <ClInclude Include="Source\Serialise.h" />
     <ClInclude Include="Source\ToolkitEditorSystem.h" />
-    <ClInclude Include="Source\Actor.h" />
     <ClInclude Include="Source\AnimationStructures.h" />
     <ClInclude Include="Source\AssetDock.h" />
     <ClInclude Include="Source\Audio.h" />
@@ -277,7 +276,7 @@
     <ClInclude Include="Source\World.h" />
     <ClInclude Include="Source\WorldDock.h" />
     <ClInclude Include="Source\WorldEditor.h" />
-    <ClInclude Include="Source\Transform.h" />
+    <ClInclude Include="Source\Transform.ixx" />
     <ClInclude Include="Source\TransformGizmo.h" />
     <ClInclude Include="Source\ActorSystemFactory.h" />
     <ClInclude Include="Source\PropertyWidgets\VectorWidget.h" />

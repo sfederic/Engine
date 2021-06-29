@@ -38,7 +38,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Actor.cpp">
+    <ClCompile Include="Source\Actor.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\AssetDock.cpp">
@@ -280,9 +280,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Actor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\AssetDock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -394,7 +391,7 @@
     <ClInclude Include="Source\AnimationStructures.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Transform.h">
+    <ClInclude Include="Source\Transform.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\imgui\imconfig.h">
@@ -508,7 +505,7 @@
     <ClInclude Include="Source\Material.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Properties.h">
+    <ClInclude Include="Source\Properties.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Commands\ICommand.h">
