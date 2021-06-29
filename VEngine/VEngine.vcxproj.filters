@@ -47,9 +47,6 @@
     <ClCompile Include="Source\AudioSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\DebugMenu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\FBXImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -170,13 +167,7 @@
     <ClCompile Include="Source\NativeEditorSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\EditorSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\ParticleSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\DebugSphere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp">
@@ -216,9 +207,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Components\BoxTriggerComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\DebugDraw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Material.cpp">
@@ -265,7 +253,7 @@
     <ClInclude Include="Source\Debug.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\DebugMenu.h">
+    <ClInclude Include="Source\DebugMenu.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\FBXImporter.h">
@@ -406,7 +394,7 @@
     <ClInclude Include="Source\NativeEditorSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\EditorSystem.h">
+    <ClInclude Include="Source\EditorSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\GlobalDefines.h">
@@ -418,7 +406,7 @@
     <ClInclude Include="Source\DebugBox.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\DebugSphere.h">
+    <ClInclude Include="Source\DebugSphere.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\BlendState.ixx">
@@ -460,7 +448,7 @@
     <ClInclude Include="Source\Components\BoxTriggerComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\DebugDraw.h">
+    <ClInclude Include="Source\DebugDraw.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Material.h">

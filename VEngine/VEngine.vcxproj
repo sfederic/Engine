@@ -120,16 +120,13 @@
     <ClCompile Include="Source\Commands\FloatCommand.cpp" />
     <ClCompile Include="Source\Properties.cpp" />
     <ClCompile Include="Source\Material.cpp" />
-    <ClCompile Include="Source\DebugDraw.cpp" />
     <ClCompile Include="Source\Components\BoxTriggerComponent.cpp" />
     <ClCompile Include="Source\Components\Component.cpp" />
     <ClCompile Include="Source\PipelineView.cpp" />
     <ClCompile Include="Source\PropertyWidgets\IntWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\FloatWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp" />
-    <ClCompile Include="Source\DebugSphere.cpp" />
     <ClCompile Include="Source\ParticleSystem.cpp" />
-    <ClCompile Include="Source\EditorSystem.cpp" />
     <ClCompile Include="Source\NativeEditorSystem.cpp" />
     <ClCompile Include="Source\Reflection.cpp" />
     <ClCompile Include="Source\Reflection.h" />
@@ -139,7 +136,6 @@
     <ClCompile Include="Source\Actor.ixx" />
     <ClCompile Include="Source\Audio.cpp" />
     <ClCompile Include="Source\AudioSystem.cpp" />
-    <ClCompile Include="Source\DebugMenu.cpp" />
     <ClCompile Include="Source\FBXImporter.cpp" />
     <ClCompile Include="Source\FileSystem.cpp" />
     <ClCompile Include="Source\GameSystem.cpp" />
@@ -195,7 +191,7 @@
     <ClInclude Include="Source\Commands\ICommand.h" />
     <ClInclude Include="Source\Properties.ixx" />
     <ClInclude Include="Source\Material.h" />
-    <ClInclude Include="Source\DebugDraw.h" />
+    <ClInclude Include="Source\DebugDraw.ixx" />
     <ClInclude Include="Source\Components\BoxTriggerComponent.h" />
     <ClInclude Include="Source\Components\Component.h" />
     <ClInclude Include="Source\PipelineView.h" />
@@ -204,9 +200,9 @@
     <ClInclude Include="Source\PropertyWidgets\BoolWidget.h" />
     <ClInclude Include="Source\BlendState.ixx" />
     <ClInclude Include="Source\DebugBox.ixx" />
-    <ClInclude Include="Source\DebugSphere.h" />
+    <ClInclude Include="Source\DebugSphere.ixx" />
     <ClInclude Include="Source\ParticleSystem.h" />
-    <ClInclude Include="Source\EditorSystem.h" />
+    <ClInclude Include="Source\EditorSystem.ixx" />
     <ClInclude Include="Source\GlobalDefines.h" />
     <ClInclude Include="Source\NativeEditorSystem.h" />
     <ClInclude Include="Source\IEditorSystem.h" />
@@ -221,7 +217,7 @@
     <ClInclude Include="Source\ConsoleDock.ixx" />
     <ClInclude Include="Source\CoreSystem.ixx" />
     <ClInclude Include="Source\Debug.ixx" />
-    <ClInclude Include="Source\DebugMenu.h" />
+    <ClInclude Include="Source\DebugMenu.ixx" />
     <ClInclude Include="Source\FBXImporter.h" />
     <ClInclude Include="Source\FileSystem.h" />
     <ClInclude Include="Source\GameSystem.h" />
