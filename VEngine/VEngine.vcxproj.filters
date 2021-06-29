@@ -65,12 +65,6 @@
     <ClCompile Include="Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\PropertiesDock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\PropertiesWidget.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Raycast.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -90,15 +84,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\UISystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\World.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\WorldDock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\WorldEditor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\RenderSystem.cpp">
@@ -253,10 +238,10 @@
     <ClInclude Include="Source\Profiler.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\PropertiesDock.h">
+    <ClInclude Include="Source\PropertiesDock.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\PropertiesWidget.h">
+    <ClInclude Include="Source\PropertiesWidget.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Raycast.h">
@@ -283,13 +268,13 @@
     <ClInclude Include="Source\UISystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\World.h">
+    <ClInclude Include="Source\World.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\WorldDock.h">
+    <ClInclude Include="Source\WorldDock.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\WorldEditor.h">
+    <ClInclude Include="Source\WorldEditor.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\RenderSystem.h">

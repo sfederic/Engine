@@ -149,8 +149,6 @@
     <ClCompile Include="Source\Texture.cpp" />
     <ClCompile Include="Source\Lights.cpp" />
     <ClCompile Include="Source\main.cpp" />
-    <ClCompile Include="Source\PropertiesDock.cpp" />
-    <ClCompile Include="Source\PropertiesWidget.cpp" />
     <ClCompile Include="Source\Raycast.cpp" />
     <ClCompile Include="Source\RenderViewWidget.cpp" />
     <ClCompile Include="Source\ShaderFactory.cpp" />
@@ -159,9 +157,6 @@
     <ClCompile Include="Source\ToolbarDock.cpp" />
     <ClCompile Include="Source\UISystem.cpp" />
     <ClCompile Include="Source\VString.cpp" />
-    <ClCompile Include="Source\World.cpp" />
-    <ClCompile Include="Source\WorldDock.cpp" />
-    <ClCompile Include="Source\WorldEditor.cpp" />
     <ClCompile Include="Source\TransformGizmo.cpp" />
     <ClCompile Include="Source\PropertyWidgets\VectorWidget.cpp" />
     <ClCompile Include="Source\Actors\TestActor2.cpp" />
@@ -230,8 +225,8 @@
     <ClInclude Include="Source\Lights.h" />
     <ClInclude Include="Source\VMath.ixx" />
     <ClInclude Include="Source\Profiler.ixx" />
-    <ClInclude Include="Source\PropertiesDock.h" />
-    <ClInclude Include="Source\PropertiesWidget.h" />
+    <ClInclude Include="Source\PropertiesDock.ixx" />
+    <ClInclude Include="Source\PropertiesWidget.ixx" />
     <ClInclude Include="Source\Raycast.h" />
     <ClInclude Include="Source\RenderTypes.h" />
     <ClInclude Include="Source\RenderViewWidget.h" />
@@ -241,9 +236,9 @@
     <ClInclude Include="Source\ToolbarDock.h" />
     <ClInclude Include="Source\UISystem.h" />
     <ClInclude Include="Source\VString.h" />
-    <ClInclude Include="Source\World.h" />
-    <ClInclude Include="Source\WorldDock.h" />
-    <ClInclude Include="Source\WorldEditor.h" />
+    <ClInclude Include="Source\World.ixx" />
+    <ClInclude Include="Source\WorldDock.ixx" />
+    <ClInclude Include="Source\WorldEditor.ixx" />
     <ClInclude Include="Source\Transform.ixx" />
     <ClInclude Include="Source\TransformGizmo.h" />
     <ClInclude Include="Source\ActorSystemFactory.ixx" />
