@@ -149,12 +149,6 @@
     <ClCompile Include="Source\RenderSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\AnimationStructures.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Transform.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\imgui\imgui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -210,9 +204,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\BlendState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ActorSystemFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp">
@@ -388,7 +379,7 @@
     <ClInclude Include="Source\RenderSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\AnimationStructures.h">
+    <ClInclude Include="Source\AnimationStructures.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Transform.ixx">
@@ -463,7 +454,7 @@
     <ClInclude Include="Source\BlendState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ActorSystemFactory.h">
+    <ClInclude Include="Source\ActorSystemFactory.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\PropertyWidgets\BoolWidget.h">

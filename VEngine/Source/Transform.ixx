@@ -7,7 +7,7 @@ using namespace DirectX;
 export class Transform
 {
 public:
-	Transform::Transform()
+	Transform()
 	{
 		scale = XMFLOAT3(1.f, 1.f, 1.f);
 		euler = XMFLOAT3(0.f, 0.f, 0.f);
