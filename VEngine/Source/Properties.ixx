@@ -1,9 +1,9 @@
 module;
+#include "GlobalDefines.h"
 import <string>;
 import <unordered_map>;
 import <optional>;
 import <typeindex>;
-import "GlobalDefines.h"
 export module Properties;
 
 //Lot of good references and ideas on serialisation. Heaps of ideas on reflection, custom compile stages, header parsing.

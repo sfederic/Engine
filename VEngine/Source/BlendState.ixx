@@ -1,4 +1,3 @@
-module;
 export module BlendState;
 
 struct ID3D11BlendState;

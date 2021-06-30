@@ -1,4 +1,18 @@
-
+#include <Windows.h>
+import Profiler;
+import EditorSystem;
+import CoreSystem;
+import RenderSystem;
+import FBXImporter;
+import Camera;
+import UISystem;
+import DebugMenu;
+#include "AudioSystem.h"
+#include <imgui.h>
+#include <backends/imgui_impl_dx11.h>
+#include <QApplication>
+import WorldEditor;
+import Input;
 
 int main(int argc, char* argv[])
 {
@@ -32,13 +46,8 @@ int main(int argc, char* argv[])
     testActorSystem.GetActor(1)->transform.local.r[3].m128_f32[0] = 3.0f;
 
     //Test debug primitive drawing
-    debugBox.Start();
-    debugSphere.Start();
-    
-
-    //Test in-game UI widget stuff
-    VWidget widget;
-    gUISystem.AddWidget(&widget);
+    //debugBox.Start();
+    //debugSphere.Start();
 
     //Qt late init
     gEditorSystem->PopulateWorldList();

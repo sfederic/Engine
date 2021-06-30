@@ -3,6 +3,7 @@ module;
 import <string>;
 import <vector>;
 import Properties;
+import Serialise;
 export module Material;
 
 using namespace DirectX;

@@ -35,9 +35,6 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Actor.ixx">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Audio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -45,9 +42,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Actors\TestActor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\imgui\imgui.cpp">
@@ -101,12 +95,6 @@
     <ClCompile Include="Source\Components\Component.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Actors\TestActor2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Components\BoxTriggerComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Commands\FloatCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -116,6 +104,7 @@
     <ClCompile Include="Source\PropertyWidgets\Float3Widget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Actor.ixx" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\AssetDock.ixx">
@@ -191,9 +180,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\ShaderFactory.ixx">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Actors\TestActor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\TimerSystem.ixx">
@@ -313,16 +299,10 @@
     <ClInclude Include="Source\PipelineView.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Actors\TestActor2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\VString.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\VWidget.ixx">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Components\BoxTriggerComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\DebugDraw.ixx">

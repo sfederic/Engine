@@ -116,14 +116,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Actor.ixx" />
     <ClCompile Include="Source\PropertyWidgets\Float3Widget.cpp" />
     <ClCompile Include="Source\Commands\FloatCommand.cpp" />
-    <ClCompile Include="Source\Components\BoxTriggerComponent.cpp" />
     <ClCompile Include="Source\Components\Component.cpp" />
     <ClCompile Include="Source\PropertyWidgets\IntWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\FloatWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp" />
-    <ClCompile Include="Source\Actor.ixx" />
     <ClCompile Include="Source\Audio.cpp" />
     <ClCompile Include="Source\AudioSystem.cpp" />
     <ClCompile Include="Source\ImGuizmo\ImCurveEdit.cpp" />
@@ -138,10 +137,8 @@
     <ClCompile Include="Source\imgui\imgui_tables.cpp" />
     <ClCompile Include="Source\imgui\imgui_widgets.cpp" />
     <ClCompile Include="Source\main.cpp" />
-    <ClCompile Include="Source\Actors\TestActor.cpp" />
     <ClCompile Include="Source\TransformGizmo.cpp" />
     <ClCompile Include="Source\PropertyWidgets\VectorWidget.cpp" />
-    <ClCompile Include="Source\Actors\TestActor2.cpp" />
     <ClCompile Include="Source\Commands\VectorCommand.cpp" />
     <QtRcc Include="EditorMainWindow.qrc" />
     <QtUic Include="EditorMainWindow.ui" />
@@ -155,7 +152,6 @@
     <ClInclude Include="Source\Properties.ixx" />
     <ClInclude Include="Source\Material.ixx" />
     <ClInclude Include="Source\DebugDraw.ixx" />
-    <ClInclude Include="Source\Components\BoxTriggerComponent.h" />
     <ClInclude Include="Source\Components\Component.h" />
     <ClInclude Include="Source\PipelineView.ixx" />
     <ClInclude Include="Source\PropertyWidgets\IntWidget.h" />
@@ -210,7 +206,6 @@
     <ClInclude Include="Source\RenderTypes.ixx" />
     <ClInclude Include="Source\RenderViewWidget.ixx" />
     <ClInclude Include="Source\ShaderFactory.ixx" />
-    <ClInclude Include="Source\Actors\TestActor.h" />
     <ClInclude Include="Source\TimerSystem.ixx" />
     <ClInclude Include="Source\ToolbarDock.ixx" />
     <ClInclude Include="Source\UISystem.ixx" />
@@ -222,7 +217,6 @@
     <ClInclude Include="Source\TransformGizmo.h" />
     <ClInclude Include="Source\ActorSystemFactory.ixx" />
     <ClInclude Include="Source\PropertyWidgets\VectorWidget.h" />
-    <ClInclude Include="Source\Actors\TestActor2.h" />
     <ClInclude Include="Source\VWidget.ixx" />
     <ClInclude Include="Source\Commands\VectorCommand.h" />
   </ItemGroup>

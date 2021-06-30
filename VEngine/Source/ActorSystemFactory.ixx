@@ -1,9 +1,8 @@
 module;
 import <unordered_map>;
 import <typeindex>;
+import Actor;
 export module ActorSystemFactory;
-
-class ActorSystem;
 
 //This is where every ActorSystem is registered at startup in a hashtable.
 //For level loading, ActorSystemFactory is used to call Init()s and whatever else per actor system.

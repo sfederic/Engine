@@ -6,7 +6,11 @@ module;
 #include <QListWidget>
 #include <QMenu>
 #include <QHBoxLayout>
+import <filesystem>;
+import <fstream>;
 import FileSystem;
+import Actor;
+import World;
 export module AssetDock;
 
 class QFileSystemModel;

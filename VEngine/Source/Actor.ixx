@@ -1,17 +1,17 @@
 module;
 #include <DirectXMath.h>
-import Properties;
+#include <DirectXCollision.h>
 import Transform;
-import MathHelpers;
-import RenderTypes;
+import Material;
 import PipelineView;
+import MathHelpers;
+import Properties;
 import AnimationStructures;
-import Serialise;
+import <string>;
+import <vector>;
 export module Actor;
 
 using namespace DirectX;
-
-class Material;
 
 export class Actor
 {
@@ -271,7 +271,7 @@ export class ActorSystem
 {
 public:
 	ModelData modelData;
-	Animation animData;
+	//Animation animData;
 	Material* material;
 	PipelineView pso;
 
@@ -380,7 +380,7 @@ public:
 
 		for(Actor* actor : actors)
 		{
-			Serialiser::Serialise(actor->GetSaveProps(), os);
+			//Serialiser::Serialise(actor->GetSaveProps(), os);
 		}
 	}
 
