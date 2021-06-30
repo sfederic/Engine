@@ -53,9 +53,6 @@
     <ClCompile Include="Source\Actors\TestActor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\UISystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\imgui\imgui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -108,12 +105,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Actors\TestActor2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\VString.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\VWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Components\BoxTriggerComponent.cpp">
@@ -214,7 +205,7 @@
     <ClInclude Include="Source\ToolbarDock.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\UISystem.h">
+    <ClInclude Include="Source\UISystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\World.ixx">
@@ -328,10 +319,10 @@
     <ClInclude Include="Source\Actors\TestActor2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\VString.h">
+    <ClInclude Include="Source\VString.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\VWidget.h">
+    <ClInclude Include="Source\VWidget.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Components\BoxTriggerComponent.h">
