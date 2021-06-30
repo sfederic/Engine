@@ -1,4 +1,4 @@
-#pragma once
+export module RasterizerState;
 
 struct ID3D11RasterizerState;
 

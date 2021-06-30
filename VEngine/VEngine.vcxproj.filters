@@ -47,28 +47,13 @@
     <ClCompile Include="Source\AudioSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\RasterizerState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Sampler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\ShaderResourceView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Lights.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Raycast.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\RenderViewWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\ShaderFactory.cpp">
@@ -84,9 +69,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\UISystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\RenderSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\imgui\imgui.cpp">
@@ -140,12 +122,6 @@
     <ClCompile Include="Source\PropertyWidgets\VectorWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Reflection.h">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Reflection.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Serialise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -171,9 +147,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\PropertyWidgets\Float3Widget.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\RenderTypes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -217,19 +190,16 @@
     <ClInclude Include="Source\Input.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\RasterizerState.h">
+    <ClInclude Include="Source\RasterizerState.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Sampler.h">
+    <ClInclude Include="Source\Sampler.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\ShaderResourceView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Texture.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Lights.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\VMath.ixx">
@@ -244,13 +214,13 @@
     <ClInclude Include="Source\PropertiesWidget.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Raycast.h">
+    <ClInclude Include="Source\Raycast.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\RenderTypes.h">
+    <ClInclude Include="Source\RenderTypes.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\RenderViewWidget.h">
+    <ClInclude Include="Source\RenderViewWidget.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\ShaderFactory.h">
@@ -277,7 +247,7 @@
     <ClInclude Include="Source\WorldEditor.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\RenderSystem.h">
+    <ClInclude Include="Source\RenderSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\AnimationStructures.ixx">
@@ -367,7 +337,7 @@
     <ClInclude Include="Source\PropertyWidgets\VectorWidget.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Serialise.h">
+    <ClInclude Include="Source\Serialise.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Components\Component.h">
