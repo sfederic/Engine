@@ -123,8 +123,6 @@
     <ClCompile Include="Source\PropertyWidgets\IntWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\FloatWidget.cpp" />
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp" />
-    <ClCompile Include="Source\Serialise.cpp" />
-    <ClCompile Include="Source\ToolkitEditorSystem.cpp" />
     <ClCompile Include="Source\Actor.ixx" />
     <ClCompile Include="Source\Audio.cpp" />
     <ClCompile Include="Source\AudioSystem.cpp" />
@@ -139,13 +137,8 @@
     <ClCompile Include="Source\imgui\imgui_draw.cpp" />
     <ClCompile Include="Source\imgui\imgui_tables.cpp" />
     <ClCompile Include="Source\imgui\imgui_widgets.cpp" />
-    <ClCompile Include="Source\ShaderResourceView.cpp" />
-    <ClCompile Include="Source\Texture.cpp" />
     <ClCompile Include="Source\main.cpp" />
-    <ClCompile Include="Source\ShaderFactory.cpp" />
     <ClCompile Include="Source\Actors\TestActor.cpp" />
-    <ClCompile Include="Source\TimerSystem.cpp" />
-    <ClCompile Include="Source\ToolbarDock.cpp" />
     <ClCompile Include="Source\UISystem.cpp" />
     <ClCompile Include="Source\VString.cpp" />
     <ClCompile Include="Source\TransformGizmo.cpp" />
@@ -180,7 +173,7 @@
     <ClInclude Include="Source\NativeEditorSystem.ixx" />
     <ClInclude Include="Source\IEditorSystem.ixx" />
     <ClInclude Include="Source\Serialise.ixx" />
-    <ClInclude Include="Source\ToolkitEditorSystem.h" />
+    <ClInclude Include="Source\ToolkitEditorSystem.ixx" />
     <ClInclude Include="Source\AnimationStructures.ixx" />
     <ClInclude Include="Source\AssetDock.ixx" />
     <ClInclude Include="Source\Audio.h" />
@@ -211,8 +204,8 @@
     <ClInclude Include="Source\RasterizerState.ixx" />
     <ClInclude Include="Source\RenderSystem.ixx" />
     <ClInclude Include="Source\Sampler.ixx" />
-    <ClInclude Include="Source\ShaderResourceView.h" />
-    <ClInclude Include="Source\Texture.h" />
+    <ClInclude Include="Source\ShaderResourceView.ixx" />
+    <ClInclude Include="Source\Texture.ixx" />
     <ClInclude Include="Source\VMath.ixx" />
     <ClInclude Include="Source\Profiler.ixx" />
     <ClInclude Include="Source\PropertiesDock.ixx" />
@@ -220,10 +213,10 @@
     <ClInclude Include="Source\Raycast.ixx" />
     <ClInclude Include="Source\RenderTypes.ixx" />
     <ClInclude Include="Source\RenderViewWidget.ixx" />
-    <ClInclude Include="Source\ShaderFactory.h" />
+    <ClInclude Include="Source\ShaderFactory.ixx" />
     <ClInclude Include="Source\Actors\TestActor.h" />
-    <ClInclude Include="Source\TimerSystem.h" />
-    <ClInclude Include="Source\ToolbarDock.h" />
+    <ClInclude Include="Source\TimerSystem.ixx" />
+    <ClInclude Include="Source\ToolbarDock.ixx" />
     <ClInclude Include="Source\UISystem.h" />
     <ClInclude Include="Source\VString.h" />
     <ClInclude Include="Source\World.ixx" />

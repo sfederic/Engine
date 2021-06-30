@@ -47,25 +47,10 @@
     <ClCompile Include="Source\AudioSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\ShaderResourceView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Texture.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\ShaderFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Actors\TestActor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\TimerSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ToolbarDock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\UISystem.cpp">
@@ -107,9 +92,6 @@
     <ClCompile Include="Source\TransformGizmo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\ToolkitEditorSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\PropertyWidgets\BoolWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -120,9 +102,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\PropertyWidgets\VectorWidget.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Serialise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Components\Component.cpp">
@@ -196,10 +175,10 @@
     <ClInclude Include="Source\Sampler.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ShaderResourceView.h">
+    <ClInclude Include="Source\ShaderResourceView.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Texture.h">
+    <ClInclude Include="Source\Texture.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\VMath.ixx">
@@ -223,16 +202,16 @@
     <ClInclude Include="Source\RenderViewWidget.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ShaderFactory.h">
+    <ClInclude Include="Source\ShaderFactory.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Actors\TestActor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\TimerSystem.h">
+    <ClInclude Include="Source\TimerSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ToolbarDock.h">
+    <ClInclude Include="Source\ToolbarDock.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\UISystem.h">
@@ -298,7 +277,7 @@
     <ClInclude Include="Source\TransformGizmo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ToolkitEditorSystem.h">
+    <ClInclude Include="Source\ToolkitEditorSystem.ixx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\IEditorSystem.ixx">
