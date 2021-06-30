@@ -146,7 +146,6 @@
     <QtRcc Include="EditorMainWindow.qrc" />
     <QtUic Include="EditorMainWindow.ui" />
     <QtMoc Include="EditorMainWindow.h" />
-    <ClCompile Include="EditorMainWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\PropertyWidgets\Float3Widget.h" />
