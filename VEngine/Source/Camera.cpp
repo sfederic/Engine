@@ -176,10 +176,12 @@ void Camera::FrustumCullTest(ActorSystem& system)
 	#pragma omp parallel for
 	for (int i = 0; i < system.actors.size(); i++)
 	{
-		XMMATRIX invView = XMMatrixInverse(&XMMatrixDeterminant(view), view);
+		XMVECTOR viewDeterminant = XMMatrixDeterminant(view);
+		XMMATRIX invView = XMMatrixInverse(&viewDeterminant, view);
 
 		XMMATRIX world = system.actors[i]->GetTransformationMatrix();
-		XMMATRIX invWorld = XMMatrixInverse(&XMMatrixDeterminant(world), world);
+		XMVECTOR worldDeterminant = XMMatrixDeterminant(world);
+		XMMATRIX invWorld = XMMatrixInverse(&worldDeterminant, world);
 
 		XMMATRIX viewToLocal = XMMatrixMultiply(invView, invWorld);
 

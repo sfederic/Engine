@@ -64,7 +64,8 @@
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <ConformanceMode>Default</ConformanceMode>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -73,7 +74,8 @@
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <ConformanceMode>Default</ConformanceMode>
     </ClCompile>
   </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">

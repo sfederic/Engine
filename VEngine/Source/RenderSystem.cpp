@@ -498,7 +498,8 @@ void RenderSystem::RenderBounds()
 
 				XMVECTOR actorPos = actor->GetPositionVector();
 				actorPos.m128_f32[3] = 1.0f;
-				XMVECTOR actorScale = XMLoadFloat3(&actor->GetScale());
+				XMFLOAT3 actorScaleFloat3 = actor->GetScale();
+				XMVECTOR actorScale = XMLoadFloat3(&actorScaleFloat3);
 
 				//Grab the actors largest scale value and build the sphere's scale from that, making it uniform
 				float highestScaleValue = FindMaxInVector(actorScale);

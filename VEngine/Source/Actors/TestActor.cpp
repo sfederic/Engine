@@ -38,7 +38,7 @@ TestActor::TestActor()
 	currentPos = GetPositionVector();
 	nextPos = currentPos;
 
-	currentRot = XMLoadFloat4(&GetRotationQuat());
+	//currentRot = XMLoadFloat4(&GetRotationQuat());
 	nextRot = currentRot;
 }
 

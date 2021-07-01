@@ -30,7 +30,7 @@ struct Properties
 
 	void* GetData(const std::string& dataName)
 	{
-		auto& dataMapIt = dataMap.find(dataName);
+		auto dataMapIt = dataMap.find(dataName);
 		if (dataMapIt != dataMap.end())
 		{
 			return dataMapIt->second;
@@ -41,7 +41,7 @@ struct Properties
 
 	std::type_index GetType(const std::string& typeName)
 	{
-		auto& typeMapIt = typeMap.find(typeName);
+		auto typeMapIt = typeMap.find(typeName);
 		return typeMapIt->second.value(); //Type will usually be grabbed after data, failing here acts as a check.
 	}
 
@@ -61,7 +61,7 @@ struct Properties
 
 	void* GetData(size_t hash)
 	{
-		auto& dataMapIt = dataMap.find(hash);
+		auto dataMapIt = dataMap.find(hash);
 		if (dataMapIt != dataMap.end())
 		{
 			return dataMapIt->second;
@@ -72,7 +72,7 @@ struct Properties
 
 	std::type_index GetType(size_t hash)
 	{
-		auto& typeMapIt = typeMap.find(hash);
+		auto typeMapIt = typeMap.find(hash);
 		return typeMapIt->second.value();
 	}
 

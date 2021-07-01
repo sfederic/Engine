@@ -2,8 +2,7 @@
 
 #include <unordered_map>
 #include <typeindex>
-
-class ActorSystem;
+#include "Actor.h"
 
 //This is where every ActorSystem is registered at startup in a hashtable.
 //For level loading, ActorSystemFactory is used to call Init()s and whatever else per actor system.
